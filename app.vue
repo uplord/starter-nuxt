@@ -1,7 +1,3 @@
 <template>
-  <section>
-    <div class="container">
-      <StarterNuxt />
-    </div>
-  </section>
+  <NuxtLayout />
 </template>

@@ -188,3 +188,13 @@ section > .inner-container > .block {
     transform: translateY(0);
   }
 }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+
+  .col-6 {
+    width: calc(50% - 16px);
+  }
+}
